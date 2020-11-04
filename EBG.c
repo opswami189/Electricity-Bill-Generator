@@ -233,7 +233,7 @@ struct bill
         else
          fwrite(&b,sizeof(b),1,ptr1);
       }
-   
+  
     fclose(ptr);  
     fclose(ptr1);
      if(flag==0)
